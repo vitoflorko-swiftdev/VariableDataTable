@@ -1,0 +1,10 @@
+framework module VariableDataTable {
+  umbrella header "VariableDataTable.h"
+
+  export *
+  module * { export * }
+}
+
+module VariableDataTable.Swift {
+    header "VariableDataTable-Swift.h"
+}

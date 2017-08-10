@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "d2b629f95751d37fa3c395b76f392f05"
+build_time: [555679750, 37998000]
+inputs:
+  "/Users/vojtechflorko/Desktop/VDTablePod/Framework/VariableDataTable/VariableDataTable/VDTable.swift": [555679372, 0]

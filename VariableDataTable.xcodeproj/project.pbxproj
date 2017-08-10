@@ -11,8 +11,25 @@
 		BF3A00C11F3C53F5006E2B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3A00BF1F3C53F5006E2B4F /* Main.storyboard */; };
 		BF3A00C31F3C53F5006E2B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3A00C21F3C53F5006E2B4F /* Assets.xcassets */; };
 		BF3A00C61F3C53F5006E2B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3A00C41F3C53F5006E2B4F /* LaunchScreen.storyboard */; };
-		BF3A00CE1F3C5444006E2B4F /* VariableDataTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A00CD1F3C5444006E2B4F /* VariableDataTable.swift */; };
+		BFA01ACC1F3C7B4700F9BEE8 /* VariableDataTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA01ACA1F3C7B4100F9BEE8 /* VariableDataTable.framework */; };
+		BFA01ACD1F3C7B4700F9BEE8 /* VariableDataTable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFA01ACA1F3C7B4100F9BEE8 /* VariableDataTable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BFA01ACF1F3C7B4B00F9BEE8 /* VariableDataTable.framework in Sources */ = {isa = PBXBuildFile; fileRef = BFA01ACA1F3C7B4100F9BEE8 /* VariableDataTable.framework */; };
+		BFA01AD01F3C7B4F00F9BEE8 /* VariableDataTable.framework in Resources */ = {isa = PBXBuildFile; fileRef = BFA01ACA1F3C7B4100F9BEE8 /* VariableDataTable.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFA01ACE1F3C7B4700F9BEE8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BFA01ACD1F3C7B4700F9BEE8 /* VariableDataTable.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BF3A00B81F3C53F5006E2B4F /* VariableDataTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariableDataTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,7 +38,7 @@
 		BF3A00C21F3C53F5006E2B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3A00C51F3C53F5006E2B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF3A00C71F3C53F5006E2B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF3A00CD1F3C5444006E2B4F /* VariableDataTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariableDataTable.swift; sourceTree = "<group>"; };
+		BFA01ACA1F3C7B4100F9BEE8 /* VariableDataTable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VariableDataTable.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA01ACC1F3C7B4700F9BEE8 /* VariableDataTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +72,7 @@
 		BF3A00BA1F3C53F5006E2B4F /* VariableDataTable */ = {
 			isa = PBXGroup;
 			children = (
-				BF3A00CD1F3C5444006E2B4F /* VariableDataTable.swift */,
+				BFA01ACA1F3C7B4100F9BEE8 /* VariableDataTable.framework */,
 				BF3A00BB1F3C53F5006E2B4F /* AppDelegate.swift */,
 				BF3A00BF1F3C53F5006E2B4F /* Main.storyboard */,
 				BF3A00C21F3C53F5006E2B4F /* Assets.xcassets */,
@@ -74,6 +92,7 @@
 				BF3A00B41F3C53F5006E2B4F /* Sources */,
 				BF3A00B51F3C53F5006E2B4F /* Frameworks */,
 				BF3A00B61F3C53F5006E2B4F /* Resources */,
+				BFA01ACE1F3C7B4700F9BEE8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA01AD01F3C7B4F00F9BEE8 /* VariableDataTable.framework in Resources */,
 				BF3A00C61F3C53F5006E2B4F /* LaunchScreen.storyboard in Resources */,
 				BF3A00C31F3C53F5006E2B4F /* Assets.xcassets in Resources */,
 				BF3A00C11F3C53F5006E2B4F /* Main.storyboard in Resources */,
@@ -137,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3A00CE1F3C5444006E2B4F /* VariableDataTable.swift in Sources */,
+				BFA01ACF1F3C7B4B00F9BEE8 /* VariableDataTable.framework in Sources */,
 				BF3A00BC1F3C53F5006E2B4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +285,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VKWXF2689L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VariableDataTable",
+				);
 				INFOPLIST_FILE = VariableDataTable/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -281,6 +305,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VKWXF2689L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VariableDataTable",
+				);
 				INFOPLIST_FILE = VariableDataTable/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -310,6 +338,7 @@
 				BF3A00CC1F3C53F5006E2B4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
