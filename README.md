@@ -145,7 +145,7 @@ let companies: [(String, Int, String, String)] =
   ("Fishing company", 46, "357 Alfredsson St.", "Rods and baits"),
   ("Coders4Life", 142, "Jefferson Ind. Park", "Mobile software"),
   ("AgroComplex Inc.", 4325, "Public City Park 5", "Herbicides and poisons"),
-  ("HorizonWindows", 95, "Main Street 68", "Windows and window\nframes”)
+  ("HorizonWindows", 95, "Main Street 68", "Windows and window frames")
 ]
         
 let headColor = UIColor(red: 0.51, green: 0.73, blue: 0.51, alpha: 1.0)
