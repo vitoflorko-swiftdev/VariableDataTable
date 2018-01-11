@@ -27,7 +27,7 @@ Let’s start with a simple horizontal datatable that displays Name, Surname and
 
 Note: The tables in pictures always have a little bit of shade to differentiate it from the rest of the parent view, by default the background for the VDTable is white and the view has no shadow applied.
 
-```
+```swift
 let vDTable = VDTable()
 
 self.view.addSubview(vDTable)
@@ -58,13 +58,13 @@ The result looks like this:
 
 The useful and interesting part is we can switch the statement:
 
-```
+```swift
 vDTable.assembleHorizontalTable(headCells: headCells, dataCells: dataCells)
 ```
 
 to:
 
-```
+```swift
 vDTable.assembleVerticalTable(headCells: headCells, dataCells: dataCells, textAlignment: .center)
 ```
 
@@ -74,7 +74,7 @@ and now the VDTable is vertical, where the entries are distributed in columns in
 
 You have surely noticed by now, that the order of Strings in a DataCell is related to the order of HeadCells in the table. If any of the DataCells have more or less data, it does not affect the table or crash the app, the table just doesn’t display it:
 
-```
+```swift
 let headCells: [HeadCell] =
 [
   HeadCell(textValue: "Name"),
@@ -110,7 +110,7 @@ All the properties are pretty much self-explanatory, but the dimension property 
 
 By default, whenever the dimensions for the HeadCells are not set (as in the previous examples), the table works with the width (or height if it’s a vertical table) of the table frame and gives each HeadCell and DataCell the exactly same fraction of the dimension, based on the number of HeadCells. This is not optimal, as, for example in a horizontal table, we don’t want the Age column to have the exact same width as the Surname column, because Age is a two/three character-long string at best, and Surname can be quite huge in certain cases. If the dimension value is lower or equal than 0 (or not set at all), its value is set by the table automatically. By setting Surname to 150 points and Age to 30 points, we make the column width appropriate for the type of data they carry:
 
-```
+```swift
 let headCells: [HeadCell] =
 [
   HeadCell(textValue: "Name"),
@@ -132,7 +132,7 @@ Result:
 
 To demonstrate a table that might resemble a more practical implementation, et’s make a little more customized horizontal VDTable from a data set about companies:
 
-```
+```swift
 let vDTable = VDTable() self.view.addSubview(vDTable)
 let width = self.view.frame.width
         
