@@ -130,7 +130,7 @@ Result:
 
 ![alt text](https://imgur.com/WAzTKij.png)
 
-To demonstrate a table that might resemble a more practical implementation, et’s make a little more customized horizontal VDTable from a data set about companies:
+To demonstrate a table that might resemble a more practical implementation, let’s make a little more customized horizontal VDTable from a data set about companies:
 
 ```swift
 let vDTable = VDTable() self.view.addSubview(vDTable)
